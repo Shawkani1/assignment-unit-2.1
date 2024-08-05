@@ -25,16 +25,17 @@ let adventurous = true
 console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
-
+let food = 'tacos';
+console.log(tacos);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-
+let pets = 3
+console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 1
 // 10 - Add two pets to your `pets` variable
-
+pets += 2;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
@@ -96,7 +97,7 @@ try {
     introduction: typeof introduction !== 'undefined' ? introduction : undefined,
     adventurous: typeof adventurous !== 'undefined' ? adventurous : undefined,
     food: typeof food !== 'undefined' ? food : undefined,
-    pets: typeof pets !== 'undefined' ? pets : undefined,
+    pets: typeof 1 !== 'undefined' ? 1 : undefined,
     friendsPets: typeof friendsPets !== 'undefined' ? friendsPets : undefined,
     allowedPets: typeof allowedPets !== 'undefined' ? allowedPets : undefined,
     result: typeof result !== 'undefined' ? result : undefined,
